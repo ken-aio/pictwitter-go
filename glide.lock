@@ -1,5 +1,5 @@
-hash: 757532572a24f3fb9fceb63da7e0aef67b50d439b2ed5b0e331348b0ab399d50
-updated: 2016-09-08T20:17:39.386020227+09:00
+hash: 3c0c063851277a25a3c188737e17ac37707b0e885fe345c46dd2cd4abc01471a
+updated: 2016-09-09T22:55:33.910714876+09:00
 imports:
 - name: github.com/dgrijalva/jwt-go
   version: c04502f106d7c5b3fae17c5da49a1bbdd3006b3c
@@ -41,10 +41,6 @@ imports:
   version: 56b76bdf51f7708750eac80fa38b952bb9f32639
 - name: github.com/Sirupsen/logrus
   version: f3cfb454f4c209e6668c95216c4744b8fddb2356
-- name: github.com/stretchr/testify
-  version: d77da356e56a7428ad25149ca77381849a6a5232
-  subpackages:
-  - assert
 - name: github.com/valyala/fasthttp
   version: 8f05edbec9fb5b0c7a4012ee746035a82e3e8bfb
 - name: github.com/valyala/fasttemplate
@@ -59,6 +55,10 @@ imports:
   - unix
 - name: gopkg.in/check.v1
   version: 4f90aeace3a26ad7021961c297b22c42160c7b25
+- name: gopkg.in/gographics/imagick.v2
+  version: f45c5377a5c0fcad01a9f754dfd7108f788dbc84
+  subpackages:
+  - imagick
 - name: gopkg.in/testfixtures.v1
   version: 799ee558983920b90d063b673dc469424e539157
   subpackages:

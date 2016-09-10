@@ -26,5 +26,15 @@ $ curl -H "Content-Type: application/json" -X GET http://localhost:8888/api/v1/f
 ]
 ```
 
+## Images
+言語を画像化したbase64を取得します  
+```
+$ curl -H "Content-Type: application/json" -X GET http://localhost:8888/api/v1/image?word=a
+```
+
+```
+{"image":"data:image/jpeg;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAXCAAAAAAXEYEkAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAAmJLR0QA/4ePzL8AAAAHdElNRQfgCQoRNgQrqK8cAAAAe0lEQVQI12P8zwADTAxUZT5LUeZ1v8HAwMDw31161SFFtb///zP87zv8/383w+3//xn+////cLEbw67//5kY7rvLt39nYGFgYPiiqLz3/2yGw///sxy9P92J4SPDXwYGFgGGeWJXuxnWi2ky/KsVFgg+pCEw6z8jxU4HAADmLxYuWQRaAAAAJXRFWHRkYXRlOmNyZWF0ZQAyMDE2LTA5LTEwVDE3OjU0OjA0KzA5OjAwQOrTXgAAACV0RVh0ZGF0ZTptb2RpZnkAMjAxNi0wOS0xMFQxNzo1NDowNCswOTowMDG3a+IAAAAHdEVYdGxhYmVsAGGns5qFAAAAAElFTkSuQmCC"}
+```
+
 参考  
 https://github.com/ken-aio/go-echo-base

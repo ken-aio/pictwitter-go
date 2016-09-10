@@ -7,9 +7,9 @@ import:
 - package: github.com/labstack/echo
   subpackages:
   - middleware
+- package: gopkg.in/gographics/imagick.v2/imagick
 # Testing FW
 - package: gopkg.in/check.v1
-- package: github.com/stretchr/testify/assert
 - package: gopkg.in/testfixtures.v1
   subpackages:
   - gopkg.in/yaml.v2
