@@ -61,3 +61,4 @@ _testmain.go
 tmp
 vendor
 *.swp
+*.log

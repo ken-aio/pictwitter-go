@@ -10,7 +10,7 @@ import (
 
 func (s *ApiSuite) Test_GetImage_単語を指定した場合にBase64の文字列が返ってくること(c *C) {
 	expected := "base64"
-	context, rec := buildContext(c, echo.GET, "/?word=test", "")
+	context, rec := buildContext(c, echo.GET, "/?word=test&font_id=2", "")
 	context.SetPath("/api/v1/image")
 	tx, code, resp := requestAPI(c, GetImage(), context, rec)
 	tx.Rollback()

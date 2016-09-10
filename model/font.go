@@ -25,3 +25,9 @@ func (m *Fonts) Load(tx *dbr.Tx) error {
 		OrderBy("id").
 		LoadStruct(m)
 }
+
+func (m *Font) LoadColumnById(tx *dbr.Tx, id int, col string) *dbr.SelectBuilder {
+	return tx.Select(col).
+		From("fonts").
+		Where("id = ?", id)
+}

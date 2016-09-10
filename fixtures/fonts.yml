@@ -2,11 +2,13 @@
   id: 1
   name: font1
   download_url: font1_url
+  file_name: GenEiAntiqueP-Medium.otf
   created_at: 2016-09-06 14:00:00
   updated_at: 2016-09-06 14:00:00
 -
   id: 2
   name: font2
   download_url: font2_url
+  file_name: GenEiAntiqueP-Medium.otf
   created_at: 2014-07-26 12:00:00
   updated_at: 2014-07-26 12:00:00
